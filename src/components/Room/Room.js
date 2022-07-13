@@ -445,6 +445,9 @@ const VideoAndBarContainer = styled.div`
   position: relative;
   width: 100%;
   height: 100vh;
+  @media (max-width: 1300px) {
+    height: 85vh;
+  }
 `;
 
 const MyVideo = styled.video``;
